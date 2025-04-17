@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear PowerPlay", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear The Joker", "Target Clear The Joker\Target Clear The Joker.csproj", "{10B85EAC-4FFE-45D3-8A0F-0191E6F9E655}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear Unique Operators", "Target Clear Unique Operators\Target Clear Unique Operators.csproj", "{A2DC775E-7635-4265-ABC7-C7DB94636776}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{10B85EAC-4FFE-45D3-8A0F-0191E6F9E655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B85EAC-4FFE-45D3-8A0F-0191E6F9E655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B85EAC-4FFE-45D3-8A0F-0191E6F9E655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DC775E-7635-4265-ABC7-C7DB94636776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DC775E-7635-4265-ABC7-C7DB94636776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DC775E-7635-4265-ABC7-C7DB94636776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DC775E-7635-4265-ABC7-C7DB94636776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
