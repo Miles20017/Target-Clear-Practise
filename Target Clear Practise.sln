@@ -5,6 +5,10 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear ORIGINAL", "Target Clear ORIGINAL\Target Clear ORIGINAL.csproj", "{C36104A6-D837-4D12-AEF7-7D9BA96B295B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear Scoring Fix", "Target Clear Scoring Fix\Target Clear Scoring Fix.csproj", "{1C10E54E-1CAD-4373-BC7E-C90AE1850DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear PowerPlay", "Target Clear PowerPlay\Target Clear PowerPlay.csproj", "{16F19534-7126-4792-A2A1-92621DC7F46C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C36104A6-D837-4D12-AEF7-7D9BA96B295B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36104A6-D837-4D12-AEF7-7D9BA96B295B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36104A6-D837-4D12-AEF7-7D9BA96B295B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C10E54E-1CAD-4373-BC7E-C90AE1850DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C10E54E-1CAD-4373-BC7E-C90AE1850DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C10E54E-1CAD-4373-BC7E-C90AE1850DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C10E54E-1CAD-4373-BC7E-C90AE1850DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F19534-7126-4792-A2A1-92621DC7F46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F19534-7126-4792-A2A1-92621DC7F46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F19534-7126-4792-A2A1-92621DC7F46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F19534-7126-4792-A2A1-92621DC7F46C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
