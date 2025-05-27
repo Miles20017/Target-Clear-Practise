@@ -48,15 +48,17 @@ namespace TargetClearCS
 
         static void SubScore(List<int> Targets,List<string> UserInputRPN,ref int Score)
         {
-            List<string> ToUse = new List<string>();
-            ToUse.AddRange(UserInputRPN);
-
-            for(int i = UserInputRPN.Count - 1; i >= 0; i--)
+            for(int i = UserInputRPN.Count - 1; i > 3; i-=2)
             {
-                ToUse.RemoveAt(i);
-                UserInputRPN = ToUse;
-                CheckIfUserInputEvaluationIsATarget(Targets, ToUse, ref Score);
-                ToUse = UserInputRPN;
+                UserInputRPN.RemoveAt(i);
+                UserInputRPN.RemoveAt(i - 1);
+                List<string> Copy = new List<string>();
+                Copy.AddRange(UserInputRPN);
+                try
+                {
+                    CheckIfUserInputEvaluationIsATarget(Targets, Copy, ref Score);
+                }
+                catch { Console.WriteLine("Smthn went wrong!"); }
             }
         }
 
@@ -75,11 +77,15 @@ namespace TargetClearCS
                 if (CheckIfUserInputValid(UserInput))
                 {
                     UserInputInRPN = ConvertToRPN(UserInput);
+
+                    List<string> CopiedList = new List<string>();
+                    CopiedList.AddRange(UserInputInRPN);
+
                     if (CheckNumbersUsedAreAllInNumbersAllowed(NumbersAllowed, UserInputInRPN, MaxNumber))
                     {
                         if (CheckIfUserInputEvaluationIsATarget(Targets, UserInputInRPN, ref Score))
                         {
-                            SubScore(Targets, UserInputInRPN, ref Score);
+                            SubScore(Targets, CopiedList, ref Score);
                             RemoveNumbersUsed(UserInput, MaxNumber, NumbersAllowed);
                             NumbersAllowed = FillNumbers(NumbersAllowed, TrainingGame, MaxNumber);
                         }
