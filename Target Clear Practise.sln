@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear Annotations", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear Subscoring", "Target Clear Subscoring\Target Clear Subscoring.csproj", "{0E5C4B40-D628-4DB6-9D4B-1B20E4A17E7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear Undo Move", "Target Clear Undo Move\Target Clear Undo Move.csproj", "{2F005EB6-87D6-4DAE-A6D7-D94EAE8B16BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0E5C4B40-D628-4DB6-9D4B-1B20E4A17E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E5C4B40-D628-4DB6-9D4B-1B20E4A17E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E5C4B40-D628-4DB6-9D4B-1B20E4A17E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F005EB6-87D6-4DAE-A6D7-D94EAE8B16BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F005EB6-87D6-4DAE-A6D7-D94EAE8B16BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F005EB6-87D6-4DAE-A6D7-D94EAE8B16BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F005EB6-87D6-4DAE-A6D7-D94EAE8B16BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
