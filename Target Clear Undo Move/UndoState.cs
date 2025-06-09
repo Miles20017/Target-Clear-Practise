@@ -33,5 +33,12 @@ namespace Target_Clear_Undo_Move
         {
             return Score;
         }
+
+        public void Restore(List<int> NumberAllowed, List<int> Targets, int Score)
+        {
+            NumberAllowed = this.NumberAllowed;
+            Targets = this.Targets;
+            Score = this.Score;
+        }
     }
 }
