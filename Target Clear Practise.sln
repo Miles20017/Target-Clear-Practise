@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear Undo Move", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Target Clear Every Valid Expression", "Target Clear Every Valid Expression\Target Clear Every Valid Expression.csproj", "{C5868984-2D7E-43B0-8130-9B03BEC58654}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spooky Numbers Section B Practise", "Spooky Numbers Section B Practise\Spooky Numbers Section B Practise.csproj", "{69C13CC7-6E9E-4227-AAD1-C2FF0E0E4C68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{C5868984-2D7E-43B0-8130-9B03BEC58654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5868984-2D7E-43B0-8130-9B03BEC58654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5868984-2D7E-43B0-8130-9B03BEC58654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69C13CC7-6E9E-4227-AAD1-C2FF0E0E4C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C13CC7-6E9E-4227-AAD1-C2FF0E0E4C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C13CC7-6E9E-4227-AAD1-C2FF0E0E4C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C13CC7-6E9E-4227-AAD1-C2FF0E0E4C68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
