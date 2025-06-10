@@ -72,7 +72,9 @@ namespace TargetClearCS
                         UndoAvailable--;
                         UndoState PreviousState = Moves.Pop();
 
-                        PreviousState.Restore(NumbersAllowed, Targets, Score);
+                        NumbersAllowed = PreviousState.GetNumbersAllowed();
+                        Targets = PreviousState.GetTargets();
+                        Score = PreviousState.GetScore();
 
                         Console.WriteLine();
                         DisplayState(Targets, NumbersAllowed, Score);
